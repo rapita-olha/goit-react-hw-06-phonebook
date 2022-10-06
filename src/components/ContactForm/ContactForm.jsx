@@ -78,7 +78,7 @@ export default function ContactForm() {
           onChange={handleInputChange}
           className={s.number}
           pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
-          title="Номер телефону повинен містити цифри, пропуски, тире, та починатись з +"
+          title="Номер телефону повинен містити цифри, пропуски, тире та починатись з +"
           required
         />
       </label>
